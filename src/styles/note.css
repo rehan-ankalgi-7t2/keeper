@@ -1,0 +1,25 @@
+.note-card {
+    width: 400px;
+    height: min-content;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.16);
+    margin-bottom: 24px;
+    border-radius: 12px;
+}
+
+.note-card button {
+    color: #FBBC04;
+    float: right;
+    text-transform: uppercase;
+    border: none;
+    background-color: white;
+    padding: 6px 8px;
+    border-radius: 4px;
+    transition: all 0.3s ease-out;
+}
+
+.note-card button:hover {
+    color: white;
+    background-color: #FBBC04;
+}
